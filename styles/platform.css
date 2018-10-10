@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+
+@keyframes spin {
+    0% {
+        color: #00FF00;
+        transform: rotate(0);
+    }
+
+    30% {
+        color: #FF0000;
+    }
+
+    100% {
+        color: #00FF00;
+        transform: rotate(360deg);
+    }
+}
+
+#arrow {
+    animation: spin infinite 3s linear;
+}
